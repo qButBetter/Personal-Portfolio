@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dino Dossier</title>
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
 
@@ -49,10 +50,25 @@
         </section>
 
         <!-- Import carousel functionality from Dino Dossier! -->
-        <section class="carousel">
-            <img src="Images/age-caro1.jpg" alt="Carousel Spinosaurus Picture #1">
-            <img src="Images/age-caro2.jpg" alt="Carousel Spinosaurus Picture #2">
-            <img src="Images/age-caro3.png" alt="Carousel Spinosaurus Picture #3">
+        <section class="carousel contain">
+
+            <section class="slides">
+                <div id="slide-1">
+                    <img src="Images/age-caro1.jpg" alt="Carousel Spinosaurus Picture #1">
+                </div>
+                <div id="slide-2">
+                    <img src="Images/age-caro2.jpg" alt="Carousel Spinosaurus Picture #2">
+                </div>
+                <div id="slide-3">
+                    <img src="Images/age-caro3.png" alt="Carousel Spinosaurus Picture #3">
+                </div>
+            </section>
+
+            <section class="slideshow-nav">
+                <a href="#slide-1">1</a>
+                <a href="#slide-2">2</a>
+                <a href="#slide-3">3</a>
+            </section>
         </section>
 
         <a href="portfolio.html">Back to Portfolio</a>
