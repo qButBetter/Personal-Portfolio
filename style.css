@@ -11,4 +11,10 @@ h1 {
     font-family: "Silkscreen", sans-serif;
 }
 
+.brick-container {
+    height: fit-content;
+    width: 80%;
+    background-image: url(Images/brick-wall.jpg);
+}
+
 /* Pages */
