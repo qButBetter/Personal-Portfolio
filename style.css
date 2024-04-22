@@ -11,10 +11,53 @@ h1 {
     font-family: "Silkscreen", sans-serif;
 }
 
-.brick-container {
-    height: fit-content;
-    width: 80%;
-    background-image: url(Images/brick-wall.jpg);
+/* Universal Styles */
+.background-container {
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.row {
+    flex-flow: row wrap;
+}
+
+.column {
+    flex-flow: column wrap;
 }
 
 /* Pages */
+
+    /* Home */
+    .brick-container {
+        height: 30em;
+        width: 100%;
+        background-image: url(Images/brick-wall.jpg);
+    }
+
+    /* About */
+    #about-back {
+        background-image: url("Images/basement.jpg");
+    }
+
+    /* Portfolio */
+    #port-back {
+        background-image: url("Images/cart-background.jpg");
+    }
+
+    /* Resume */
+    #res-back {
+        background-image: url("Images/court-background.jfif");
+    }
+
+    /* Future Plans */
+    #future-back {
+        background-image: url("Images/waterfall-background.gif");
+    }
+
+    /* Contact */
+    #contact-back {
+        background-image: url("Images/space-background.jfif");
+    }
