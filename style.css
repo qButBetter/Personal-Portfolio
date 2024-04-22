@@ -12,6 +12,14 @@ h1 {
 }
 
 /* Universal Styles */
+.head-horiz {
+    background-color: #919191;
+}
+
+.head-vert {
+    background-color: #919191;
+}
+
 .background-container {
     position: absolute;
     width: 100%;
@@ -30,34 +38,34 @@ h1 {
 
 /* Pages */
 
-    /* Home */
-    .brick-container {
-        height: 30em;
-        width: 100%;
-        background-image: url(Images/brick-wall.jpg);
-    }
+/* Home */
+.brick-container {
+    height: 30em;
+    width: 100%;
+    background-image: url(Images/brick-wall.jpg);
+}
 
-    /* About */
-    #about-back {
-        background-image: url("Images/basement.jpg");
-    }
+/* About */
+#about-back {
+    background-image: url("Images/basement.jpg");
+}
 
-    /* Portfolio */
-    #port-back {
-        background-image: url("Images/cart-background.jpg");
-    }
+/* Portfolio */
+#port-back {
+    background-image: url("Images/cart-background.jpg");
+}
 
-    /* Resume */
-    #res-back {
-        background-image: url("Images/court-background.jfif");
-    }
+/* Resume */
+#res-back {
+    background-image: url("Images/court-background.jfif");
+}
 
-    /* Future Plans */
-    #future-back {
-        background-image: url("Images/waterfall-background.gif");
-    }
+/* Future Plans */
+#future-back {
+    background-image: url("Images/waterfall-background.gif");
+}
 
-    /* Contact */
-    #contact-back {
-        background-image: url("Images/space-background.jfif");
-    }
+/* Contact */
+#contact-back {
+    background-image: url("Images/space-background.jfif");
+}
