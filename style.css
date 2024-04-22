@@ -13,11 +13,17 @@ h1 {
 
 /* Universal Styles */
 .head-horiz {
+    display: flex;
     background-color: #919191;
+    flex-flow: row wrap;
 }
 
 .head-vert {
+    display: flex;
     background-color: #919191;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .background-container {
@@ -29,14 +35,16 @@ h1 {
 }
 
 .row {
+    display: flex;
     flex-flow: row wrap;
 }
 
 .column {
+    display: flex;
     flex-flow: column wrap;
 }
 
-/* Pages */
+/* PAGES */
 
 /* Home */
 .brick-container {

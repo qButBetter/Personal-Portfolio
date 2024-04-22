@@ -1,7 +1,9 @@
+// Carousel Functionality
+
+
 // Easter Egg Clickables
 var quagsireAud = new Audio("Sounds/quagsire.mp3");
 var brickAud = new Audio("Sounds/brick-house.mp3")
-
 
 document.addEventListener("DOMContentLoaded", function () {
 
@@ -25,5 +27,41 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("brick-wall").addEventListener("click", function () {
         brickAud.play();
         console.log("Wall Clicked!");
+    });
+});
+
+// Nav Clickables
+document.addEventListener("DOMContentLoaded", function () {
+
+    document.getElementById("home-icon").addEventListener("click", function () {
+
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    document.getElementById("hob-icon").addEventListener("click", function () {
+
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    document.getElementById("ed-icon").addEventListener("click", function () {
+
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    document.getElementById("xp-icon").addEventListener("click", function () {
+
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    document.getElementById("plans-icon").addEventListener("click", function () {
+
     });
 });
