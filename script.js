@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
 
     document.getElementById("home-icon").addEventListener("click", function () {
-
+        
     });
 });
 

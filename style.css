@@ -12,10 +12,26 @@ h1 {
 }
 
 /* Universal Styles */
+header a {
+   display: inline-block;
+   width: 5em;
+}
+
+header img {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .head-horiz {
     display: flex;
     background-color: #919191;
     flex-flow: row wrap;
+}
+
+.head-horiz a {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .head-vert {
