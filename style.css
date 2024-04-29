@@ -74,6 +74,11 @@ header img {
     background-image: url("Images/basement.jpg");
 }
 
+.cat-container > img {
+    width: 20em;
+    height: 30em;
+}
+
 /* Portfolio */
 #port-back {
     background-image: url("Images/cart-background.jpg");
@@ -92,110 +97,4 @@ header img {
 /* Contact */
 #contact-back {
     background-image: url("Images/space-background.jfif");
-}
-
-/* Carousel */
-.carousel {
-    width: 100%;
-    text-align: center;
-    overflow: hidden;
-    position: relative;
-    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.3);
-}
-
-.slides {
-    display: flex;
-    overflow-x: hidden;
-    /* Hide the scroll bar beneath slides on non-touch devices */
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
-}
-
-.slides::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-}
-
-.slides::-webkit-scrollbar-thumb {
-    background: black;
-    border-radius: 10px;
-}
-
-.slides::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-.slides>div {
-    scroll-snap-align: start;
-    flex-shrink: 0;
-    width: 105%;
-    /* Match with Container Width */
-    height: 750px;
-    border-radius: 10px;
-    background: #eee;
-    transform-origin: center center;
-    transform: scale(1);
-    transition: transform 0.5s;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 100px;
-
-}
-
-.carousel img {
-    object-fit: cover;
-    object-position: left center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.carousel.contain img {
-    object-fit: contain;
-    object-position: center center;
-
-}
-
-.carousel.contain #slide-2>img {
-    object-fit: cover;
-    object-position: center center;
-}
-
-.slideshow-nav {
-    position: absolute;
-    z-index: 2;
-    bottom: -0.75rem;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-}
-
-.slideshow-nav>a {
-    display: inline-flex;
-    width: 1.5rem;
-    height: 1.5rem;
-    background: rgb(201, 86, 20);
-    text-decoration: none;
-    align-items: center;
-    justify-content: center;
-    border-radius: 25%;
-    margin: 0 0.25rem;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-}
-
-.slideshow-nav>a:nth-of-type(even) {
-    background: rgb(205, 163, 86);
-}
-
-.slideshow-nav>a:hover {
-    background-color: aquamarine;
-}
-
-.slideshow-nav>a:focus {
-    background: #000;
 }
