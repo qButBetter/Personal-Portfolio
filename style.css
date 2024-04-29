@@ -13,8 +13,8 @@ h1 {
 
 /* Universal Styles */
 header a {
-   display: inline-block;
-   width: 5em;
+    display: inline-block;
+    width: 5em;
 }
 
 header img {
@@ -74,7 +74,7 @@ header img {
     background-image: url("Images/basement.jpg");
 }
 
-.cat-container > img {
+.cat-container>img {
     width: 20em;
     height: 30em;
 }

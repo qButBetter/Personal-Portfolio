@@ -12,9 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("quagsire").addEventListener("click", function () {
 
         quagsireAud.play();
-        console.log("Quagsire Clicked!");
         quagCount++;
-        console.log("Quagsire Counter: " + quagCount);
 
         if (quagCount > 99) {
             // Do something silly with this! ;-;
@@ -31,38 +29,23 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-// Nav Clickables
+// Carousel JS
+let iterator = 0;
 document.addEventListener("DOMContentLoaded", function () {
 
-    document.getElementById("home-icon").addEventListener("click", function () {
-        
-    });
-});
+    let carouselImg = ['Images/age-caro1.jpg', 'Images/age-caro2.jpg', 'Images/age-caro3.png'];
 
-document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("dossier-container").innerHTML = `<img src='${carouselImg[iterator]}' alt="A Spinosaurus Image">`;
 
-    document.getElementById("hob-icon").addEventListener("click", function () {
+    document.getElementById("carousel-btn").addEventListener("click", function () {
+        iterator++;
+        console.log(iterator);
 
-    });
-});
+        if (iterator > 2) {
+            iterator = 0;
+        }
 
-document.addEventListener("DOMContentLoaded", function () {
-
-    document.getElementById("ed-icon").addEventListener("click", function () {
-
-    });
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-
-    document.getElementById("xp-icon").addEventListener("click", function () {
-
-    });
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-
-    document.getElementById("plans-icon").addEventListener("click", function () {
+        document.getElementById("dossier-container").innerHTML = `<img src='${carouselImg[iterator]}' alt="A Spinosaurus Image">`;
 
     });
 });
