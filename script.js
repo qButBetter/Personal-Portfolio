@@ -38,7 +38,6 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("carousel-btn").addEventListener("click", function () {
         iterator++;
         carouselClick++;
-        console.log(iterator);
 
         if (iterator > 2) {
             iterator = 0;
@@ -46,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         document.getElementById("dossier-container").innerHTML = `<img src='${carouselImg[iterator]}' alt="A Spinosaurus Image">`;
 
-        if (carouselClick > 100) {
+        if (carouselClick > 99) {
             document.getElementById("dossier-container").innerHTML = `<img src='Images/hames.png' alt="A Spinosaurus Image">`;
         }
     });
