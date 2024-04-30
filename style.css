@@ -61,6 +61,14 @@ header img {
 /* Home */
 .steed-container {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column > h1 {
+    font-size: 4em;
+    width: 50%;
+    margin-top: 3em;
 }
 
 .brick-container {
@@ -88,6 +96,34 @@ header img {
 /* About */
 #about-back {
     background-image: url("Images/basement.jpg");
+}
+
+.game-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(255, 0, 0, 0.4);
+    margin-bottom: 1em;
+}
+
+.game-container > p {
+    color: #79BBE1;
+    text-shadow: 0.1em 0.1em #0B459B;
+}
+
+.text-container {
+    margin-top: 5em;
+    flex-flow: row wrap;
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(255, 0, 0, 0.4);
+    margin-bottom: 1em;
+}
+
+.text-container > p {
+    color: #79BBE1;
+    text-shadow: 0.1em 0.1em #0B459B;
 }
 
 .cat-container>img {
