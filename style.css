@@ -9,6 +9,7 @@
 
 h1 {
     font-family: "Silkscreen", sans-serif;
+    font-size: 5em;
 }
 
 /* Universal Styles */
@@ -56,6 +57,10 @@ header img {
     width: fit-content;
 }
 
+.margin {
+    margin-top: 6em;
+}
+
 /* PAGES */
 
 /* Home */
@@ -63,9 +68,14 @@ header img {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin: 1em;
 }
 
-.column > h1 {
+#james-1 {
+    margin-bottom: -2em;
+}
+
+.column>h1 {
     font-size: 4em;
     width: 50%;
     margin-top: 3em;
@@ -106,9 +116,13 @@ header img {
     margin-bottom: 1em;
 }
 
-.game-container > p {
+.game-container>p {
     color: #79BBE1;
     text-shadow: 0.1em 0.1em #0B459B;
+}
+
+.game-container img {
+    max-width: 20%;
 }
 
 .text-container {
@@ -121,7 +135,7 @@ header img {
     margin-bottom: 1em;
 }
 
-.text-container > p {
+.text-container>p {
     color: #79BBE1;
     text-shadow: 0.1em 0.1em #0B459B;
 }
@@ -135,6 +149,8 @@ header img {
 #port-back {
     background-image: url("Images/cart-background.jpg");
 }
+
+.portfolio-container {}
 
 /* Resume */
 #res-back {
