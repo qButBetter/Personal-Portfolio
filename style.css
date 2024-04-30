@@ -12,6 +12,12 @@ h1 {
 }
 
 /* Universal Styles */
+
+header {
+    background-color: #919191;
+    padding: 1em;
+}
+
 header a {
     display: inline-block;
     width: 5em;
@@ -25,21 +31,8 @@ header img {
 
 .head-horiz {
     display: flex;
-    background-color: #919191;
     flex-flow: row wrap;
-}
-
-.head-horiz a {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.head-vert {
-    display: flex;
-    background-color: #919191;
-    flex-flow: column wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .background-container {
@@ -58,15 +51,36 @@ header img {
 .column {
     display: flex;
     flex-flow: column wrap;
+    width: fit-content;
 }
 
 /* PAGES */
 
 /* Home */
+.steed-container {
+    width: 100%;
+}
+
 .brick-container {
     height: 30em;
     width: 100%;
     background-image: url(Images/brick-wall.jpg);
+}
+
+.brick-container>p {
+    color: white;
+    font-size: 2em;
+    text-shadow: 0.1em 0.1em black;
+    padding: 1em;
+    margin: 1em;
+}
+
+.light-blue {
+    color: cyan;
+}
+
+.orange {
+    color: orange;
 }
 
 /* About */

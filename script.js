@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("dossier-container").innerHTML = `<img src='${carouselImg[iterator]}' alt="A Spinosaurus Image">`;
 
         if (carouselClick > 99) {
-            document.getElementById("dossier-container").innerHTML = `<img src='Images/hames.png' alt="A Spinosaurus Image">`;
+            document.getElementById("dossier-container").innerHTML = `<img src='Images/hames.png' alt="Janice image">`;
         }
     });
 });
