@@ -12,10 +12,12 @@ h1 {
 }
 
 /* Universal Styles */
-
 header {
     background-color: #919191;
     padding: 1em;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 }
 
 header a {
