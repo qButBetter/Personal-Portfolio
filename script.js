@@ -84,4 +84,3 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("cat-container").innerHTML = `<img src='${carouselImg2[iterator2]}' alt="One of many cats from the VAC Fearl Yard">`;
     });
 });
-
