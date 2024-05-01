@@ -26,6 +26,20 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("noBtn").addEventListener("click", function () {
+        window.close();
+        window.open("pickle.html");
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("pickle-btn").addEventListener("click", function () {
+        window.close();
+        window.open("home.html");
+    });
+});
+
 // Carousel JS
 let iterator = 0;
 document.addEventListener("DOMContentLoaded", function () {
