@@ -64,3 +64,24 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+let iterator2 = 0;
+document.addEventListener("DOMContentLoaded", function () {
+
+    let carouselImg2 = ['Images/dunkle2.jpg', 'Images/phil.png', 'Images/kimchi1.jpg'];
+
+    document.getElementById("cat-container").innerHTML = `<img src='${carouselImg2[iterator2]}' alt="One of many cats from the VAC Fearl Yard">`;
+    let carouselClick2 = 0;
+
+    document.getElementById("cat-btn").addEventListener("click", function () {
+        iterator2++;
+        carouselClick2++;
+
+        if (iterator2 > 2) {
+            iterator2 = 0;
+        }
+
+        document.getElementById("cat-container").innerHTML = `<img src='${carouselImg2[iterator2]}' alt="One of many cats from the VAC Fearl Yard">`;
+    });
+});
+

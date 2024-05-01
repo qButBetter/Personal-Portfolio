@@ -29,6 +29,170 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-family: "Coming Soon", "Comic-Sans";
+    margin: 1em;
+}
+
+/* PAGES */
+
+/* Index */
+.index-container {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+#index-h {
+    color: white;
+}
+
+#james-cart {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+#yesBtn {
+    padding: 2em;
+    background-color: lightgreen;
+    border-radius: 10%;
+    font-size: 2em;
+}
+
+#noBtn {
+    padding: 2em;
+    background-color: lightcoral;
+    border-radius: 10%;
+    font-size: 2em;
+}
+
+/* Pickle */
+.pickle-p {
+    border-radius: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightgreen;
+    color: white;
+    font-size: 3em;
+}
+
+/* Home */
+.steed-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+#james-1 {
+    margin-bottom: -2em;
+}
+
+.column>h1 {
+    font-size: 4em;
+    width: 50%;
+    margin-top: 3em;
+    color: white;
+}
+
+.brick-container {
+    height: 24em;
+    width: 100%;
+    background-image: url(Images/brick-wall.jpg);
+}
+
+.brick-container>p {
+    color: white;
+    font-size: 2em;
+    text-shadow: 0.1em 0.1em black;
+    padding: 1em;
+    margin: 1em;
+}
+
+.light-blue {
+    color: cyan;
+    font-family: "Pacifico", "Comic-Sans";
+}
+
+.orange {
+    color: orange;
+    font-family: "Pacifico", "Comic-Sans";
+}
+
+/* About */
+#about-back {
+    background-image: url("Images/basement.jpg");
+}
+
+.about-container {
+    margin: 1em;
+    padding: 1em;
+    width: 70%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(128, 128, 128, 0.3);
+    margin-bottom: 1em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-container>p {
+    width: 50%;
+    font-size: 2em;
+    color: #79BBE1;
+    text-shadow: 0.1em 0.1em #0B459B;
+}
+
+.about-container img {
+    max-width: 30%;
+}
+.about-container a {
+    color: #79BBE1;
+}
+
+.cat-container {
+    width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.cat-container>img {
+    max-width: 100%;
+    width: 20em;
+    height: 30em;
+}
+
+#cat-btn {
+    background-color: darkred;
+    color: white;
+    font-size: 1em;
+    padding: 1em;
+    border-radius: 10%;
+}
+
+/* Portfolio */
+#port-back {
+    background-image: url("Images/cart-background.jpg");
+}
+
+.portfolio-container {}
+
+/* Resume */
+#res-back {
+    background-image: url("Images/court-background.jfif");
+}
+
+/* Future Plans */
+#future-back {
+    background-image: url("Images/waterfall-background.gif");
+}
+
+/* Contact */
+#contact-back {
+    background-image: url("Images/space-background.jfif");
+}
+
 /* Universal Styles */
 header {
     background-color: #919191;
@@ -91,151 +255,7 @@ header img {
     color: black;
 }
 
-/* PAGES */
-
-/* Index */
-.index-container {
+.reverse {
     display: flex;
-    justify-content: space-between;
-    width: 40%;
-}
-
-#index-h {
-    color: white;
-}
-
-#james-cart {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-}
-
-#yesBtn {
-    padding: 2em;
-    background-color: lightgreen;
-    border-radius: 10%;
-    font-size: 2em;
-}
-
-#noBtn {
-    padding: 2em;
-    background-color: lightcoral;
-    border-radius: 10%;
-    font-size: 2em;
-}
-
-/* Pickle */
-.pickle-p {
-    border-radius: 10%;
-    font-family:'Times New Roman', Times, serif;
-    background-color: lightgreen;
-    color: white;
-    font-size: 3em;
-}
-
-/* Home */
-.steed-container {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin: 1em;
-}
-
-#james-1 {
-    margin-bottom: -2em;
-}
-
-.column>h1 {
-    font-size: 4em;
-    width: 50%;
-    margin-top: 3em;
-    color: white;
-}
-
-.brick-container {
-    height: 24em;
-    width: 100%;
-    background-image: url(Images/brick-wall.jpg);
-}
-
-.brick-container>p {
-    color: white;
-    font-size: 2em;
-    text-shadow: 0.1em 0.1em black;
-    padding: 1em;
-    margin: 1em;
-}
-
-.light-blue {
-    color: cyan;
-    font-family: "Pacifico", "Comic-Sans";
-}
-
-.orange {
-    color: orange;
-    font-family: "Pacifico", "Comic-Sans";
-}
-
-/* About */
-#about-back {
-    background-image: url("Images/basement.jpg");
-}
-
-.game-container {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    background-color: rgb(255, 0, 0, 0.4);
-    margin-bottom: 1em;
-}
-
-.game-container>p {
-    color: #79BBE1;
-    text-shadow: 0.1em 0.1em #0B459B;
-}
-
-.game-container img {
-    max-width: 20%;
-}
-
-.text-container {
-    margin-top: 5em;
-    flex-flow: row wrap;
-    width: 80%;
-    display: flex;
-    flex-flow: row wrap;
-    background-color: rgb(255, 0, 0, 0.4);
-    margin-bottom: 1em;
-}
-
-.text-container>p {
-    color: #79BBE1;
-    text-shadow: 0.1em 0.1em #0B459B;
-}
-
-.cat-container>img {
-    width: 20em;
-    height: 30em;
-}
-
-/* Portfolio */
-#port-back {
-    background-image: url("Images/cart-background.jpg");
-}
-
-.portfolio-container {}
-
-/* Resume */
-#res-back {
-    background-image: url("Images/court-background.jfif");
-}
-
-/* Future Plans */
-#future-back {
-    background-image: url("Images/waterfall-background.gif");
-}
-
-/* Contact */
-#contact-back {
-    background-image: url("Images/space-background.jfif");
+    flex-flow: row-reverse wrap;
 }
