@@ -1,6 +1,7 @@
 /* Importing Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 * {
     box-sizing: border-box;
@@ -25,6 +26,7 @@
 h1 {
     font-family: "Silkscreen", sans-serif;
     font-size: 5em;
+    text-align: center;
 }
 
 /* Universal Styles */
@@ -79,6 +81,14 @@ header img {
 .center {
     display: flex;
     justify-content: center;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
 }
 
 /* PAGES */
@@ -158,10 +168,12 @@ header img {
 
 .light-blue {
     color: cyan;
+    font-family: "Pacifico", "Comic-Sans";
 }
 
 .orange {
     color: orange;
+    font-family: "Pacifico", "Comic-Sans";
 }
 
 /* About */
