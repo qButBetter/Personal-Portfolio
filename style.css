@@ -7,6 +7,21 @@
     margin: 0;
 }
 
+.w3-animate-opacity {
+    animation: opac 10s;
+    background-color: black;
+}
+
+@keyframes opac {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
 h1 {
     font-family: "Silkscreen", sans-serif;
     font-size: 5em;
@@ -61,7 +76,52 @@ header img {
     margin-top: 6em;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+}
+
 /* PAGES */
+
+/* Index */
+.index-container {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+#index-h {
+    color: white;
+}
+
+#james-cart {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+#yesBtn {
+    padding: 2em;
+    background-color: lightgreen;
+    border-radius: 10%;
+    font-size: 2em;
+}
+
+#noBtn {
+    padding: 2em;
+    background-color: lightcoral;
+    border-radius: 10%;
+    font-size: 2em;
+}
+
+/* Pickle */
+.pickle-p {
+    border-radius: 10%;
+    font-family:'Times New Roman', Times, serif;
+    background-color: lightgreen;
+    color: white;
+    font-size: 3em;
+}
 
 /* Home */
 .steed-container {
@@ -79,10 +139,11 @@ header img {
     font-size: 4em;
     width: 50%;
     margin-top: 3em;
+    color: white;
 }
 
 .brick-container {
-    height: 30em;
+    height: 24em;
     width: 100%;
     background-image: url(Images/brick-wall.jpg);
 }
