@@ -179,7 +179,7 @@ h2 {
 /* Portfolio */
 #port-back {
     background-image: url("Images/cart-background.jpg");
-    height: 58em;
+    height: 100em;
     display: flex;
     flex-flow: column wrap;
 }
@@ -208,7 +208,7 @@ h2 {
     justify-content: center;
 }
 
-.proj-container img{
+.proj-container img {
     max-width: 90%;
 }
 
@@ -221,13 +221,76 @@ h2 {
     justify-content: center;
 }
 
-.dossier-container img{
+.dossier-container img {
     width: 50em;
     height: 30em;
 }
 
 #carousel-btn {
     width: 10em;
+}
+
+.nav-container {
+    justify-content: center;
+    width: 50em;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-column-gap: 50px;
+    grid-row-gap: 10px;
+    border-radius: 10%;
+}
+
+.box {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 20%;
+    margin-top: 2em;
+    border-radius: 10%;
+}
+
+.nav-container>.box {
+    padding: 20px;
+    border-radius: 10%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    height: 15em;
+    width: 15em;
+    margin: 0;
+}
+
+.box>a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+.red {
+    background-color: #DA502B;
+}
+
+.blue {
+    background-color: #275C84;
+}
+
+.green {
+    background-color: #079982;
+}
+
+.yellow {
+    background-color: #FDB02C;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 2em;
 }
 
 /* Resume */
