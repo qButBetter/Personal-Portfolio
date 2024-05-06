@@ -475,3 +475,73 @@ header img {
     display: flex;
     flex-flow: row-reverse wrap;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 640px) {
+
+    .column>h1 {
+        font-size: 3.5em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .column {
+        margin-bottom: -0.2em;
+    }
+
+    .margin {}
+
+    /* Home Page */
+
+    /* Fix home page me! */
+    #james-1 {}
+
+    .brick-container {
+        height: 100%;
+        width: 100%;
+    }
+
+    #brickwall {
+        width: 100%;
+    }
+
+    header img {
+        width: 70%;
+    }
+
+    /* About Page */
+    .about-container {
+        width: 95%;
+    }
+
+    .about-container p {
+        font-size: 1.5em;
+    }
+
+    /* Resume Page */
+
+    /* Portfolio Page */
+
+    /* Future Plans Page */
+
+    /* Contact Page */
+
+}
+
+@media screen and (max-width: 340px) {
+
+    /* Home Page */
+
+    /* About Page */
+
+    /* Resume Page */
+
+    /* Portfolio Page */
+
+    /* Future Plans Page */
+
+    /* Contact Page */
+}
