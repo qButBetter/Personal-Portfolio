@@ -27,11 +27,13 @@ h1 {
     font-family: "Silkscreen", sans-serif;
     font-size: 5em;
     text-align: center;
+    text-shadow: 0.1em 0.1em black;
 }
 
 h2 {
     font-family: "Coming Soon", "Comic-Sans";
     margin: 1em;
+    text-shadow: 0.1em 0.1em black;
 }
 
 /* PAGES */
