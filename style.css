@@ -202,6 +202,10 @@ h2 {
     color: white;
 }
 
+.port-container a {
+    color: greenyellow;
+}
+
 .proj-container {
     padding-top: 1em;
     display: flex;
@@ -226,13 +230,20 @@ h2 {
     height: 30em;
 }
 
+.button-container {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
 #carousel-btn {
     width: 10em;
+    justify-self: center;
 }
 
 .nav-container {
     justify-content: center;
-    width: 50em;
+    width: 100%;
     display: grid;
     grid-template-columns: 200px 200px;
     grid-column-gap: 50px;
@@ -481,7 +492,12 @@ header img {
 @media screen and (max-width: 640px) {
 
     .column>h1 {
-        font-size: 3.5em;
+        text-align: left;
+        font-size: 3em;
+    }
+
+    h1 {
+        font-size: 3em;
     }
 
     h2 {
@@ -489,15 +505,19 @@ header img {
     }
 
     .column {
-        margin-bottom: -0.2em;
+        margin-bottom: -2em;
+        justify-content: flex-end;
     }
 
-    .margin {}
+    .margin {
+        margin-top: 5em;
+    }
 
     /* Home Page */
-
-    /* Fix home page me! */
-    #james-1 {}
+    #james-1 {
+        width: 90%;
+        margin-bottom: 0.1em;
+    }
 
     .brick-container {
         height: 100%;
@@ -514,20 +534,76 @@ header img {
 
     /* About Page */
     .about-container {
-        width: 95%;
+        width: 80%;
+        flex-flow: column wrap;
+    }
+
+    .about-container img {
+        padding-top: 1em;
+        max-width: 65%;
     }
 
     .about-container p {
         font-size: 1.5em;
+        width: 90%;
+    }
+
+    .cat-container {
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 1em;
     }
 
     /* Resume Page */
+    .resume-container {
+
+    }
+   
 
     /* Portfolio Page */
+    .port-container {
+        width: 90%;
+    }
+
+    #product {
+        width: 100%;
+    }
+
+    .box {
+        padding: 1em;
+        width: 40%;
+    }
+
+    .dossier-container img{
+        width: 30em;
+        height: 20em;
+    }
 
     /* Future Plans Page */
+    .plans-container {
+        width: 90%;
+    }
 
     /* Contact Page */
+    .between {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .contact-container {
+        width: 90%;
+    }
+
+    .contact-container p {
+        font-size: 2em;
+    }
+
+    #v1-img {
+        display: flex;
+        align-self: flex-start;
+        width: 70%;
+        position: relative;
+    }
 
 }
 
