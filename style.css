@@ -555,11 +555,14 @@ header img {
     }
 
     /* Resume Page */
-    .resume-container {
-
+    #res-back {
+    height: 100em;
     }
-   
 
+    .resume-container {
+        width: 100%;
+        height: fit-content;
+    }
     /* Portfolio Page */
     .port-container {
         width: 90%;
