@@ -85,13 +85,18 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-let windowheight = (window.innerHeight / 2);
+// // Fading in function
+// document.addEventListener("DOMContentLoaded", function () {
+//     let window_height = window.innerHeight;
+//     let center_position = window_height / 2.9;
+    
+//     document.addEventListener("scroll", function () {
+//         let boxes = document.getElementsByClassName("container");
+//         [...boxes].forEach(element => {
+//             let box_position = element.getBoundingClientRect().top;
+//             let opacity = 1 - Math.abs(box_position - center_position) / center_position;
+//             element.style.opacity = opacity.toFixed(2);
+//         });
+//     });
+// });
 
-document.addEventListener("DOMContentLoaded", function () {
-
-    document.addEventListener("scroll", function () {
-        document.getElementsByClassName("container");
-        // Get bounding client
-    });
-
-});

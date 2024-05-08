@@ -98,7 +98,7 @@ h2 {
 }
 
 .brick-container {
-    height: 24em;
+    height: 100%;
     width: 100%;
     background-image: url(Images/brick-wall.jpg);
 }
@@ -450,11 +450,13 @@ header img {
 
 .background-container {
     position: absolute;
+    height: 250em;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
+
 
 .row {
     display: flex;
@@ -478,10 +480,12 @@ header img {
 
 .white {
     color: white;
+    text-shadow: 0.1em 0.1em black;
 }
 
 .black {
     color: black;
+    text-shadow: none;
 }
 
 .reverse {
@@ -633,20 +637,171 @@ header img {
         width: 70%;
         position: relative;
     }
-
 }
 
 @media screen and (max-width: 340px) {
 
+    .column>h1 {
+        text-align: left;
+        font-size: 2em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .column {
+        margin-bottom: -1.5em;
+        justify-content: flex-end;
+    }
+
+    .margin {
+        margin-top: 3em;
+    }
+
+    /* Index */
+    #james-cart {
+        width: 85%;
+    }
+
+    .index-container {
+        width: 80%;
+    }
+
+    .index-container>button {
+        font-size: 1em;
+    }
+
+    #yesBtn {
+        padding: 1em;
+        width: 30%;
+    }
+
+    #noBtn {
+        padding: 1em;
+        width: 30%;
+    }
+
     /* Home Page */
+    #james-1 {
+        width: 90%;
+        margin-bottom: 0.1em;
+    }
+
+    .brick-container {
+        height: 100%;
+        width: 100%;
+    }
+
+    .brick-container p {
+        font-size: 1.5em;
+    }
+
+    #brickwall {
+        width: 100%;
+    }
+
+    header {
+        padding: 0.5em;
+    }
+
+    header img {
+        width: 60%;
+    }
+
+    header a {
+        width: 15%;
+    }
 
     /* About Page */
+    .about-container img {
+        padding-top: 1em;
+        max-width: 100%;
+    }
+
+    .about-container p {
+        font-size: 1em;
+        width: 95%;
+    }
+
+    .cat-container {
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 1em;
+    }
 
     /* Resume Page */
+    #res-back {
+        height: 130em;
+    }
+
+    .resume-container {
+        width: 90%;
+        height: fit-content;
+    }
 
     /* Portfolio Page */
+    .port-container {
+        width: 80%;
+    }
+
+    .nav-container {
+        width: 10em;
+    }
+
+    .nav-wrapper {
+        width: 50%;
+    }
+
+    #product {
+        width: 100%;
+    }
+
+    .box {
+        padding: 0em;
+        width: 10%;
+    }
+
+    .dossier-container img {
+        width: 30em;
+        height: 20em;
+    }
 
     /* Future Plans Page */
+    .plans-container {
+        width: 90%;
+    }
+
+    .plans-container img {
+        width: 50%;
+    }
+
+    .plans-container p {
+        font-size: 1em;
+    }
 
     /* Contact Page */
+    .between {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .contact-container {
+        width: 90%;
+    }
+
+    .contact-container p {
+        font-size: 2em;
+    }
+
+    #v1-img {
+        display: flex;
+        align-self: flex-start;
+        width: 70%;
+        position: relative;
+    }
 }
