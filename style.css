@@ -515,6 +515,29 @@ header img {
         margin-top: 5em;
     }
 
+    /* Index */
+    #james-cart {
+        width: 85%;
+    }
+
+    .index-container {
+        width: 80%;
+    }
+
+    .index-container>button {
+        font-size: 1em;
+    }
+
+    #yesBtn {
+        padding: 1em;
+        width: 30%;
+    }
+
+    #noBtn {
+        padding: 1em;
+        width: 30%;
+    }
+
     /* Home Page */
     #james-1 {
         width: 90%;
@@ -558,13 +581,14 @@ header img {
 
     /* Resume Page */
     #res-back {
-    height: 100em;
+        height: 100em;
     }
 
     .resume-container {
         width: 90%;
         height: fit-content;
     }
+
     /* Portfolio Page */
     .port-container {
         width: 90%;
@@ -579,7 +603,7 @@ header img {
         width: 40%;
     }
 
-    .dossier-container img{
+    .dossier-container img {
         width: 30em;
         height: 20em;
     }
