@@ -23,6 +23,22 @@
     }
 }
 
+@keyframes slideDown {
+    from {
+        padding-top: 0%;
+        margin-top: 0%;
+    }
+    to {
+        padding-top: 100%;
+        margin-top: 100%;
+    }
+}
+
+.slide {
+    animation-duration: 5s;
+    animation-name: slideDown;
+}
+
 h1 {
     font-family: "Silkscreen", sans-serif;
     font-size: 5em;
@@ -258,6 +274,7 @@ h2 {
     align-self: center;
     justify-content: center;
     width: 20%;
+    padding: 3em;
     margin-top: 2em;
     border-radius: 10%;
 }
@@ -394,6 +411,10 @@ ul {
 .between {
     display: flex;
     justify-content: space-between;
+}
+
+.contact-container a {
+    color: white;
 }
 
 .contact-container {
@@ -750,7 +771,16 @@ header img {
     }
 
     .nav-container {
-        width: 10em;
+        justify-self: center;
+        width: 100%;
+        grid-column-gap: 3em;
+        grid-template-columns: 8em 8em;
+    }
+
+    .nav-container .box {
+        height: 9em;
+        width: 9em;
+        font-size: 0.8em;
     }
 
     .nav-wrapper {
@@ -762,13 +792,13 @@ header img {
     }
 
     .box {
-        padding: 0em;
-        width: 10%;
+        padding: 3em;
+        width: 50%;
     }
 
     .dossier-container img {
-        width: 30em;
-        height: 20em;
+        width: 15em;
+        height: 10em;
     }
 
     /* Future Plans Page */
@@ -785,23 +815,19 @@ header img {
     }
 
     /* Contact Page */
-    .between {
-        display: flex;
-        flex-flow: column wrap;
-    }
-
     .contact-container {
         width: 90%;
     }
 
     .contact-container p {
         font-size: 2em;
+        text-align: center;
     }
 
     #v1-img {
         display: flex;
         align-self: flex-start;
-        width: 70%;
+        width: 80%;
         position: relative;
     }
 }

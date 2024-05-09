@@ -85,11 +85,29 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+function addSlide() {
+    document.getElementById("james-1").classList.add("slide");
+}
+
+function removeSlide() {
+    document.getElementById("james-1").classList.remove("slide");
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    document.getElementById("james-1").addEventListener("click", function () {
+
+        addSlide();
+        // Count for 5 seconds, then remove class slide
+        setTimeout(removeSlide, 5000);
+    });
+});
+
 // // Fading in function
 // document.addEventListener("DOMContentLoaded", function () {
 //     let window_height = window.innerHeight;
 //     let center_position = window_height / 2.9;
-    
+
 //     document.addEventListener("scroll", function () {
 //         let boxes = document.getElementsByClassName("container");
 //         [...boxes].forEach(element => {
@@ -99,4 +117,3 @@ document.addEventListener("DOMContentLoaded", function () {
 //         });
 //     });
 // });
-
