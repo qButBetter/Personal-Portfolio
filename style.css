@@ -29,13 +29,13 @@
         margin-top: 0%;
     }
     to {
-        padding-top: 100%;
-        margin-top: 100%;
+        padding-top: 75%;
+        margin-top: 60%;
     }
 }
 
 .slide {
-    animation-duration: 5s;
+    animation-duration: 2s;
     animation-name: slideDown;
 }
 
