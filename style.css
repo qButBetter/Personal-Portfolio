@@ -760,6 +760,10 @@ header img {
         height: 130em;
     }
 
+    #resume-btn {
+        margin-top: 3em;
+    }
+
     .resume-container {
         width: 90%;
         height: fit-content;
