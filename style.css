@@ -28,6 +28,7 @@
         padding-top: 0%;
         margin-top: 0%;
     }
+
     to {
         padding-top: 75%;
         margin-top: 60%;
@@ -657,6 +658,58 @@ header img {
         align-self: flex-start;
         width: 70%;
         position: relative;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    #yesBtn {
+        width: 50%;
+    }
+
+    #noBtn {
+        width: 50%;
+    }
+
+    header a {
+        width: 3em;
+    }
+
+    .column h1 {
+        font-size: 1.7em;
+    }
+
+    #about-back {
+        height: 400em;
+    }
+
+    #res-back {
+        height: 120em;
+    }
+
+    .nav-container {
+        justify-self: center;
+        width: 100%;
+        grid-column-gap: 2em;
+        grid-template-columns: 6em 6em;
+    }
+
+    .nav-container .box {
+        height: 10em;
+        width: 10em;
+        font-size: 0.5em;
+    }
+
+    #future-back {
+        height: 80em;
+    }
+
+    .plans-container img {
+        width: 40%;
+    }
+
+    .plans-container p {
+        text-align: center;
     }
 }
 
