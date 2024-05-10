@@ -97,6 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     document.getElementById("james-1").addEventListener("click", function () {
 
+    
         addSlide();
         // Count for 5 seconds, then remove class slide
         setTimeout(removeSlide, 5000);
