@@ -711,6 +711,11 @@ header img {
     .plans-container p {
         text-align: center;
     }
+
+    .brick-container p {
+        text-shadow: 0.15em 0.15em black;
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 340px) {
