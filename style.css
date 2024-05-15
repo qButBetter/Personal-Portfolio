@@ -661,7 +661,7 @@ header img {
     }
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 480px) {
 
     #yesBtn {
         width: 50%;
